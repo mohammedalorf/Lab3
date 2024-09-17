@@ -22,7 +22,7 @@ public class App {
      public static void readStudents(List<String> students) {
         System.out.println("Reading student list... 🎓");
         for (String student : students) {
-            System.out.println("📚 Student: " + student);
+            System.out.println("📚 Student Name: " + student);
         }
     }
     public static void main(String[] args) throws Exception {
